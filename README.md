@@ -5,6 +5,7 @@
 
 ### Estado del código
 
+![Build Status](https://travis-ci.com/b2lero/IWVG.SwC.XavierSotomayor.svg?branch=develop)
 
 ### Arquitecto
 
