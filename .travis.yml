@@ -15,4 +15,4 @@ script:
   -Dsonar.projectKey=b2lero_IWVG.SwC.XavierSotomayor \
   -Dsonar.organization=b2lero-github \
   -Dsonar.host.url=https://sonarcloud.io \
-  -Dsonar.login=$IWVG.SwC
+  -Dsonar.login=IWVG.SwC
