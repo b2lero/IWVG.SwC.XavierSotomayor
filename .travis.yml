@@ -8,6 +8,9 @@ branches:
 notifications:
   email:
     recipients:
-    - x.sotomayor@alumnos.upm.es
+    - x.sotomayor@alumnos.upm.com
 script:
+#Test unitario y de integracion en develop
 - mvn verify
+- mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
+- mvn sonar:sonar -Dsonar.organization=b2lero-github -Dsonar.host.url=https://sonarcloud.io -Dsonar.login=$SONAR
