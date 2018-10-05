@@ -10,13 +10,13 @@ public class FractionTest {
 
     @BeforeEach
     void before() {
-        fraction = new Fraction(2, 3);
+        fraction = new Fraction(2, 2);
     }
 
     @Test
     void testFractionInt() {
         assertEquals(2, fraction.getNumerator());
-        assertEquals(3, fraction.getDenominator());
+        assertEquals(2, fraction.getDenominator());
     }
 
     @Test
