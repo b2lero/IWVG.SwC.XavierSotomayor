@@ -24,4 +24,11 @@ public class FractionTest {
         assertEquals(1, this.fraction.decimal(), 10e-5);
     }
 
+    @Test
+    void testIsPropia(){
+        assertEquals(false,fraction.isPropia());
+        fraction = new Fraction(2,3);
+        assertEquals(true,fraction.isPropia());
+    }
+
 }
