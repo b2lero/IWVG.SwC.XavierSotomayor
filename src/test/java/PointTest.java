@@ -16,7 +16,7 @@ class PointTest {
         assertEquals(2, point.getX());
         assertEquals(3, point.getY());
     }
-    
+
     @Test
     void testPointInt() {
         point = new Point(2);
@@ -46,6 +46,13 @@ class PointTest {
         this.point.translateOrigin(new Point(1, 1));
         assertEquals(1, point.getX());
         assertEquals(2, point.getY());
+    }
+
+    @Test
+    void testModifyCoordinate() {
+        point.modifyCoordinate(1, 1);
+        assertEquals(1, point.getX());
+        assertEquals(1, point.getY());
     }
 
 }
