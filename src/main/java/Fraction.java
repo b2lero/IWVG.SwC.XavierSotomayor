@@ -30,4 +30,10 @@ public class Fraction {
         return this.numerator < this.denominator;
     }
 
+    public Fraction multiply(Fraction fraction) {
+        this.numerator = this.numerator * fraction.getNumerator();
+        this.denominator = this.denominator * fraction.getDenominator();
+        return this;
+    }
+
 }
