@@ -31,4 +31,11 @@ public class FractionTest {
         assertEquals(true,fraction.isPropia());
     }
 
+    @Test
+    void testMultiply() {
+        Fraction fraction1 = new Fraction(4,7);
+        assertEquals(8, this.fraction.multiply(fraction1).getNumerator());
+        assertEquals(14, this.fraction.getDenominator());
+    }
+
 }
