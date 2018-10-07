@@ -38,4 +38,11 @@ public class FractionTest {
         assertEquals(14, this.fraction.getDenominator());
     }
 
+    @Test
+    void testDivide() {
+        Fraction fraction1 = new Fraction(2,6);
+        assertEquals(4, this.fraction.multiply(fraction1).getNumerator());
+        assertEquals(12, this.fraction.getDenominator());
+    }
+
 }
