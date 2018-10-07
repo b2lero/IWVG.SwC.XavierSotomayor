@@ -35,4 +35,10 @@ public class UserTest {
         assertEquals("C.", user.initials());
     }
 
+    @Test
+    void testgetCode() {
+        user = new User(1, "carlos", "montoya");
+        this.testUser();
+    }
+
 }

@@ -33,8 +33,7 @@ public class User {
         return this.name;
     }
 
-    public String getFamilyName() {
-        return this.familyName;
-    }
+    public String getFamilyName() { return this.familyName; }
 
+    public String getCode() { return this.number + this.name + this.familyName; }
 }
