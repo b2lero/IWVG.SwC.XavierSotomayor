@@ -46,4 +46,10 @@ public class Point {
                 ", y=" + y +
                 '}';
     }
+
+    public void modifyCoordinate(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+
 }

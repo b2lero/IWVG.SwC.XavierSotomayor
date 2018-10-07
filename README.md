@@ -5,6 +5,11 @@
 
 ### Estado del código
 
+<<<<<<< HEAD
+=======
+![Build Status](https://travis-ci.org/b2lero/IWVG.SwC.XavierSotomayor.svg?branch=develop)
+![Sonar status](https://sonarcloud.io/api/project_badges/measure?project=es.upm.miw%3Aiwvg.swc&metric=alert_status)
+>>>>>>> release-1.0
 
 ### Arquitecto
 

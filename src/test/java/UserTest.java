@@ -13,6 +13,19 @@ public class UserTest {
     }
 
     @Test
+    void testUser() {
+        assertEquals(1, user.getNumber());
+        assertEquals("Carlos", user.getName());
+        assertEquals("Montoya", user.getFamilyName());
+    }
+
+    @Test
+    void testFormat() {
+        user = new User(1, "carlos", "montoya");
+        this.testUser();
+    }
+
+    @Test
     void testfullName(){
         assertEquals("Carlos Montoya", user.fullName());
     }
@@ -25,5 +38,14 @@ public class UserTest {
     @Test
     void testGetName(){
         assertEquals("Carlos",user.getName());
+    }
+    void testInitials() {
+        assertEquals("C.", user.initials());
+    }
+
+    @Test
+    void testgetCode() {
+        user = new User(1, "carlos", "montoya");
+        this.testUser();
     }
 }
